@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: auto;
+    width: 985px;
+    height: 1000px;
+    font-size: 0; /* removes gaps */
+}
+/* position schemes */
+#video_player{float: left;}
+#bookMarks_container{display: inline-block;}
+/* dimesions schemes */
+header, footer{ height: 10%;}
+#ffmpeg_commands{height: 40%;}
+#bookMarks_buttons{height: 20%;}
+#bookMarks_table_content{height: 65%;}
+#video_player{height: 40%; width: 40%;}
+#bookMarks_container{height: 40%;width: 60%;}
+#bookMarks_table_header{height: 15%; font-size: 23px;}
+/* color schemes */
+#video_player{background-color: lightgray}
+#bookMarks_table_content{background-color: #9c29b7;}
+header, footer, #bookMarks_buttons{background-color: black;}
+#bookMarks_table_header, #ffmpeg_commands{background-color: #92d36e;}
+header{ 
+    font-family: 'Galada', cursive;
+    border: 2px solid #ffa834;
+    line-height: 1.3em;
+    text-align: center;
+    font-size: 90px;
+    color: white;
+}
+
+
+
+
