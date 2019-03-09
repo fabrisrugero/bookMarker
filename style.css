@@ -15,22 +15,41 @@ body {
 header, footer{ height: 10%;}
 #ffmpeg_commands{height: 40%;}
 #bookMarks_buttons{height: 20%;}
-#bookMarks_table_content{height: 65%;}
+#bookMarks_table_content{height: 69.25%;}
 #video_player{height: 40%; width: 40%;}
 #bookMarks_container{height: 40%;width: 60%;}
-#bookMarks_table_header{height: 15%; font-size: 23px;}
-/* color schemes */
+#bookMarks_table_header{height: 10.75%; font-size: 23px;}
+/* background color schemes */
 #video_player{background-color: lightgray}
 #bookMarks_table_content{background-color: #9c29b7;}
 header, footer, #bookMarks_buttons{background-color: black;}
 #bookMarks_table_header, #ffmpeg_commands{background-color: #92d36e;}
+/*border and border color schemes */
+table, th, td { border-collapse: collapse;}
+table, th, td, header { border: 2px solid #ffa834;}
 header{ 
     font-family: 'Galada', cursive;
-    border: 2px solid #ffa834;
+    border-bottom: none;
     line-height: 1.3em;
     text-align: center;
     font-size: 90px;
     color: white;
+}
+#bookMarks_table_header table{
+    font-family: 'Autour One', cursive; 
+    color: white;
+    width: 100%;
+}
+#bookMarks_table_header th{
+    padding: 5px;
+}
+#bookMarks_table_header img {
+    width: 23px;
+    height: 23px;
+}
+.center_content{
+    display: flex; 
+    justify-content: center;
 }
 
 
