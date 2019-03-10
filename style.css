@@ -15,10 +15,10 @@ body {
 header, footer{ height: 10%;}
 #ffmpeg_commands{height: 40%;}
 #bookMarks_buttons{height: 20%;}
-#bookMarks_table_content{height: 69.25%;}
 #video_player{height: 40%; width: 40%;}
 #bookMarks_container{height: 40%;width: 60%;}
-#bookMarks_table_header{height: 10.75%; font-size: 23px;}
+#bookMarks_table_header{height: 10.5%; font-size: 23px;}
+#bookMarks_table_content{height: 69.5%; font-size: 14px; }
 /* background color schemes */
 #video_player{background-color: lightgray}
 #bookMarks_table_content{background-color: #9c29b7;}
@@ -27,6 +27,7 @@ header, footer, #bookMarks_buttons{background-color: black;}
 /*border and border color schemes */
 table, th, td { border-collapse: collapse;}
 table, th, td, header { border: 2px solid #ffa834;}
+/* bookmarks aside section*/
 header{ 
     font-family: 'Galada', cursive;
     border-bottom: none;
@@ -35,23 +36,56 @@ header{
     font-size: 90px;
     color: white;
 }
-#bookMarks_table_header table{
+#bookMarks_container table{
     font-family: 'Autour One', cursive; 
     color: white;
     width: 100%;
 }
+#bookMarks_table_header table{
+    border-bottom:none;
+}
 #bookMarks_table_header th{
     padding: 5px;
+    border-bottom: 1px solid #ffa834;
 }
-#bookMarks_table_header img {
-    width: 23px;
-    height: 23px;
+#bookMarks_table_content table{
+    border-top: 1px solid #ffa834;
 }
+#bookMarks_table_content td{
+    height: 30px;
+    border-top:none;
+    text-align: center;
+}
+/* Image ( checkboxes ) */
 .center_content{
     display: flex; 
     justify-content: center;
 }
-
-
-
-
+.center_content img {
+    width: 23px;
+    height: 23px;
+}
+/* padding classes */
+.column01_Width{
+    width: 5.24%;
+}
+.column02_Width{
+    width: 15.9%;
+}
+.column03_Width{
+    width: 13.45%;
+    /* width: 77px; */
+}
+.column04_Width{
+    width: 15.8%;
+    /* width: 91px; */
+}
+.column05_Width{
+    width: 15.3%;
+}
+.column06_Width{
+    width: 9.64%;
+}
+.column07_Width{
+    width: 18.49%;
+}
