@@ -108,8 +108,22 @@
                         </tr>                                      
                     </table>
                 </section>
-                <section id="bookMarks_buttons">
-
+                <section id="bookMarks_buttons" class="center_content">
+                    <input type="submit" value="DELETE" style="width: 147px;">
+                    <img src="" alt=""><img src="" alt=""><div></div><div></div>
+                    <select>
+                        <option value="1000">1</option>
+                        <option value="5000">5</option>
+                        <option value="10000" selected>10</option>
+                        <option value="30000">30</option>
+                      </select>
+                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                    <button type="button" class="imageButton">
+                        <img src="http://dummyimage.com/30x30/ff0/000">
+                    </button>
+                    <button type="button" class="imageButton">
+                        <img src="http://dummyimage.com/30x30/ff0/000">
+                    </button>
                 </section>
         </aside>        
     </main>
@@ -119,9 +133,9 @@
     </section>
     <footer class="center_content">
             <input type="file" id="selectedFile" style="display: none;" />
-            <input type="submit" value="UPLOAD" onclick="document.getElementById('selectedFile').click();" />
+            <input type="submit" value="UPLOAD" style="width: 147px;" onclick="document.getElementById('selectedFile').click();" />
             <form onsubmit="download()"><input type="submit" value="DOWNLOAD" style="width: 200px;"></form>
-            <input type="submit" value="DELETE">
+            <input type="submit" value="DELETE" style="width: 147px;">
         <script >
             function download() {
                 var element = document.createElement('a');

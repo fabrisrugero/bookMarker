@@ -13,13 +13,14 @@ body {
 #bookMarks_container{display: inline-block;}
 /* dimesions schemes */
 main{height: 40%;}
-header, footer{height: 10%; }
-#ffmpeg_commands{height: 40%;}
-#bookMarks_buttons{height: 20%;}
+footer{height: 7%;}
+header{height: 10%;}
+#ffmpeg_commands{height: 43%;}
+#bookMarks_buttons{height: 14%;}
 #video_player{height: 100%; width: 40%;}
 #bookMarks_container{height: 100%;width: 60%;}
 #bookMarks_table_header{height: 10.5%; font-size: 23px;}
-#bookMarks_table_content{height: 69.5%; font-size: 14px; }
+#bookMarks_table_content{height: 75.5%; font-size: 14px; }
 /* background color schemes */
 #bookMarks_table_content{background-color: #9c29b7;}
 header, footer, #bookMarks_buttons{background-color: black;}
@@ -68,7 +69,7 @@ main {
     align-items: center;
     justify-content: center;
 }
-.center_content img {
+.center_content > img {
     width: 23px;
     height: 23px;
 }
@@ -97,9 +98,10 @@ main {
     width: 18.49%;
 }
 /* upload,download and delete buttons*/
-footer input{
+footer input, #bookMarks_buttons input,
+#bookMarks_buttons button{
     height: 42px;
-    width: 147px;
+    /* width: 147px; */
     color:white;
     cursor: pointer;
     font-size: 30px;
@@ -111,8 +113,24 @@ footer input{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.imageButton{
+    position:relative;
+    width:60px;
+    height:40px;
+ }
+ 
+ .imageButton img {
+   position:absolute;
+   top: 50%;
+   left:50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+ }
+
 /* html video */
 video{
     width: 100%;
     height: 100%;
 }
+
