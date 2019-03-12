@@ -12,97 +12,125 @@
     <header>
         BOOKMARKER
     </header>
-    <aside id="video_player">
+    <main>
+        <aside id="video_player">
+                <video id='video'
+                    controls preload='none'
+                    poster="https://media.w3.org/2010/05/sintel/poster.png">
+                    <source id='mp4'
+                    src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+                    type='video/mp4'>
+                    <source id='webm'
+                    src="https://media.w3.org/2010/05/sintel/trailer.webm"
+                    type='video/webm'>
+                    <source id='ogv'
+                    src="https://media.w3.org/2010/05/sintel/trailer.ogv"
+                    type='video/ogg'>
+                        <p>Your user agent does not support the HTML5 Video element.</p>
+                </video>
+        </aside>
+        <aside id="bookMarks_container">
+                <section id="bookMarks_table_header">
+                    <table>
+                        <tr>
+                            <th>#</th>
+                            <th>START</th>
+                            <th>STOP</th>
+                            <th>TOTAL</th>
+                            <th>TYPES</th>
+                            <th>EXT</th>
+                            <th>RESULT</th>
+                            <th>
+                                <div class="center_content">
+                                    <img src="" alt="">
+                                </div>
+                            </th>
+                        </tr>
+                    </table>
+                </section>
+                <section id="bookMarks_table_content">
+                    <table>
+                        <tr>
+                            <td class="column01_Width">60</td>
+                            <td class="column02_Width">00:00:00</td>
+                            <td class="column03_Width">00:00:00</td>
+                            <td class="column04_Width">00:00:00</td>
+                            <td class="column05_Width">Image60</td>
+                            <td class="column06_Width">.PNG</td>
+                            <td class="column07_Width">BookMark</td>
+                            <td>
+                                <div class="center_content">
+                                    <img src="" alt="">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="column01_Width">01</td>
+                            <td class="column02_Width">00:00:00</td>
+                            <td class="column03_Width">00:00:00</td>
+                            <td class="column04_Width">00:00:00</td>
+                            <td class="column05_Width">Image01</td>
+                            <td class="column06_Width">.PNG</td>
+                            <td class="column07_Width">Bselected</td>
+                            <td>
+                                <div class="center_content">
+                                    <img src="" alt="">
+                                </div>
+                            </td>
+                        </tr>     
+                        <tr>
+                            <td class="column01_Width">22</td>
+                            <td class="column02_Width">00:00:00</td>
+                            <td class="column03_Width">00:00:00</td>
+                            <td class="column04_Width">00:88:00</td>
+                            <td class="column05_Width">Video22</td>
+                            <td class="column06_Width">.MP4</td>
+                            <td class="column07_Width">Vselected</td>
+                            <td>
+                                <div class="center_content">
+                                    <img src="" alt="">
+                                </div>
+                            </td>
+                        </tr>  
+                        <tr>
+                            <td class="column01_Width">13</td>
+                            <td class="column02_Width">07:05:00</td>
+                            <td class="column03_Width">99:66:77</td>
+                            <td class="column04_Width">00:08:00</td>
+                            <td class="column05_Width">Video13</td>
+                            <td class="column06_Width">.VLC</td>
+                            <td class="column07_Width">VideoClip</td>
+                            <td>
+                                <div class="center_content">
+                                    <img src="" alt="">
+                                </div>
+                            </td>
+                        </tr>                                      
+                    </table>
+                </section>
+                <section id="bookMarks_buttons">
 
-    </aside>
-    <aside id="bookMarks_container">
-        <section id="bookMarks_table_header">
-            <table>
-                <tr>
-                    <th>#</th>
-                    <th>START</th>
-                    <th>STOP</th>
-                    <th>TOTAL</th>
-                    <th>TYPES</th>
-                    <th>EXT</th>
-                    <th>RESULT</th>
-                    <th>
-                        <div class="center_content">
-                            <img src="" alt="">
-                        </div>
-                    </th>
-                </tr>
-            </table>
-        </section>
-        <section id="bookMarks_table_content">
-            <table>
-                <tr>
-                    <td class="column01_Width">60</td>
-                    <td class="column02_Width">00:00:00</td>
-                    <td class="column03_Width">00:00:00</td>
-                    <td class="column04_Width">00:00:00</td>
-                    <td class="column05_Width">Image60</td>
-                    <td class="column06_Width">.PNG</td>
-                    <td class="column07_Width">BookMark</td>
-                    <td>
-                        <div class="center_content">
-                            <img src="" alt="">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="column01_Width">01</td>
-                    <td class="column02_Width">00:00:00</td>
-                    <td class="column03_Width">00:00:00</td>
-                    <td class="column04_Width">00:00:00</td>
-                    <td class="column05_Width">Image01</td>
-                    <td class="column06_Width">.PNG</td>
-                    <td class="column07_Width">Bselected</td>
-                    <td>
-                        <div class="center_content">
-                            <img src="" alt="">
-                        </div>
-                    </td>
-                </tr>     
-                <tr>
-                    <td class="column01_Width">22</td>
-                    <td class="column02_Width">00:00:00</td>
-                    <td class="column03_Width">00:00:00</td>
-                    <td class="column04_Width">00:88:00</td>
-                    <td class="column05_Width">Video22</td>
-                    <td class="column06_Width">.MP4</td>
-                    <td class="column07_Width">Vselected</td>
-                    <td>
-                        <div class="center_content">
-                            <img src="" alt="">
-                        </div>
-                    </td>
-                </tr>  
-                <tr>
-                    <td class="column01_Width">13</td>
-                    <td class="column02_Width">07:05:00</td>
-                    <td class="column03_Width">99:66:77</td>
-                    <td class="column04_Width">00:08:00</td>
-                    <td class="column05_Width">Video13</td>
-                    <td class="column06_Width">.VLC</td>
-                    <td class="column07_Width">VideoClip</td>
-                    <td>
-                        <div class="center_content">
-                            <img src="" alt="">
-                        </div>
-                    </td>
-                </tr>                                      
-            </table>
-        </section>
-        <section id="bookMarks_buttons">
-
-        </section>
-    </aside>
+                </section>
+        </aside>        
+    </main>
+    
     <section id="ffmpeg_commands">
 
     </section>
-    <footer>
-
+    <footer class="center_content">
+            <input type="file" id="selectedFile" style="display: none;" />
+            <input type="submit" value="UPLOAD" onclick="document.getElementById('selectedFile').click();" />
+            <form onsubmit="download()"><input type="submit" value="DOWNLOAD" style="width: 200px;"></form>
+            <input type="submit" value="DELETE">
+        <script >
+            function download() {
+                var element = document.createElement('a');
+                element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent('text'));
+                element.setAttribute('download', 'filename.bat'); element.style.display = 'none';
+                document.body.appendChild(element); element.click();
+                document.body.removeChild(element);
+            }
+        </script>
     </footer>
 </body>
 </html>
