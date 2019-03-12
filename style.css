@@ -112,10 +112,48 @@ footer input, #bookMarks_buttons input,
     border: 2px solid #cbe8ba;
     font-family: Helvetica, Arial, sans-serif;
 }
+.fastFoward_button{
+    margin-right: 5px;
+    height: 40px;
+    width: 65px;
+}
+.batchFasword{
+    color: white;
+    font-size: 30px;
+    /* padding-right: 10px; */
+    /* direction: rtl; */
+    text-align-last:right;
+    background-color: #00c8f8;
+    border: #cbe8ba 2px solid;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-right: 5px;
+    height: 40px;
+    width: 60px;
+}
+#bookMarks_buttons .play_button{
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+.fastFoward_button img{
+    height: 100%;
+    width: 50%;
+}
+.pause_buttons{
+    margin-right:5px;
+}
+#bookMarks_buttons .pause_button{
+    background-color: #72bb53;
+    border: 2px solid #cbe8ba;
+    display: inline-block;
+    margin-right: 2px;
+    height: 36px;
+    width: 10px;
+}
 
 .imageButton{
     position:relative;
-    width:60px;
+    width:70px;
     height:40px;
  }
  
